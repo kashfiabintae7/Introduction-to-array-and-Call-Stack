@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h2></h2>
+    <div class="main">
+  <h1 class="metal">
+    JavaScript Objects Data Structure and Array
+    <span class="texture"></span>   
+</div>
+
+    <h3>About Me:</h3>
+
+    <p id="one"></p>
+    <p id="two"></p>
+    <p id="three"></p>
+    <p id="four"></p>
+    <p id="five"></p>
+    <p id="six"></p>
+    <p id="seven"></p>
+    <p id="eight"></p>
+    <p id="nine"></p>
+    <p id="ten"></p>
+    <p id="eleven"></p>
+    <p id="twelve"></p>
+    <p id="thirteen"></p>
+    <p id="fourteen"></p>
+    <p id="fiveteen"></p>
+
+    <script>
+      var student = {
+        name: "Kashfia",
+        age: "15",
+        grade: "9",
+        hobby: "Reading",
+        stress_reliever: "Shopping",
+        fav_color: ["Black", "Yellow"],
+        fav_subject: "Chemistry",
+        least_fav_subject: ["History", "Bangla"],
+        fav_teacher: "Mr. Newaz Muhammad Nahian Khan",
+        fav_artist_group: "BTS",
+        fav_artist_male: "Charlie Puth",
+        fav_artist_female: "Billie Eilish",
+        fav_series: "Squid Game",
+        fav_movie: "Sherlock Homes",
+        fav_web_series: "The Silent Sea",
+      };
+      document.getElementById("one").innerHTML =
+        "My name is: " + student.name + ".";
+      document.getElementById("two").innerHTML =
+        "Iam " + student.age + " years old.";
+      document.getElementById("three").innerHTML =
+        "Iam in grade " + student.grade + ".";
+      document.getElementById("four").innerHTML =
+        "My favorite hobby is:  " + student.hobby + ".";
+      document.getElementById("five").innerHTML =
+        "To elieve stress, I enjoy: " + student.stress_reliever + ".";
+      document.getElementById("six").innerHTML =
+        "My favourite colors are: " + student.fav_color.join(" and ") + ".";
+      document.getElementById("seven").innerHTML =
+        "My favorite subject is: " + student.fav_subject + ".";
+      document.getElementById("eight").innerHTML =
+        "My least favourite subjects are: " +
+        student.least_fav_subject.join(" and ") +
+        ".";
+      document.getElementById("nine").innerHTML =
+        "My favorite teacher is: " + student.fav_teacher + ".";
+      document.getElementById("ten").innerHTML =
+        "Iam a big fan of the artist group: " + student.fav_artist_group + ".";
+      document.getElementById("eleven").innerHTML =
+        "My favorite male artist is: " + student.fav_artist_male + ".";
+      document.getElementById("twelve").innerHTML =
+        "My favorite female artist is: " + student.fav_artist_female + ".";
+      document.getElementById("thirteen").innerHTML =
+        "My favourite series is: " + student.fav_series + ".";
+      document.getElementById("fourteen").innerHTML =
+        "My favorite movie is: " + student.fav_movie + ".";
+      document.getElementById("fiveteen").innerHTML =
+        "My favorite drama series is: " + student.fav_web_series + ".";
+    </script>
+  </body>
+</html>
